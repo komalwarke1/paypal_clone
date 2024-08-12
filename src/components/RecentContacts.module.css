@@ -1,0 +1,33 @@
+.recentContacts {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recentContacts h2 {
+    font-size: 1.5rem;
+    color: #2d3748;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .recentContacts ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .recentContacts li {
+    padding: 10px;
+    border-bottom: 1px solid #e2e8f0;
+    font-size: 1rem;
+    color: #4a5568;
+  }
+  
+  .recentContacts li:last-child {
+    border-bottom: none;
+  }
+  

@@ -1,0 +1,35 @@
+.recentContacts {
+    background-color: #f9f9f9; /* Light background for the container */
+    border: 1px solid #d1d5db; /* Subtle border for distinction */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Space inside the container */
+    max-width: 600px; /* Maximum width of the container */
+    margin: 20px auto; /* Center the container with vertical margins */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  }
+  
+  .recentContacts h2 {
+    font-size: 1.5rem; /* Larger font size for the heading */
+    color: #2d3748; /* Dark color for text */
+    margin-bottom: 20px; /* Space below the heading */
+    text-align: center; /* Center the heading text */
+  }
+  
+  .recentContacts ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .recentContacts li {
+    padding: 12px 0; /* Padding for each list item */
+    border-bottom: 1px solid #d1d5db; /* Border between items */
+    font-size: 1rem; /* Font size for list items */
+    color: #4a5568; /* Text color */
+    display: flex; /* Flexbox for alignment */
+    justify-content: space-between; /* Space between name and email */
+  }
+  
+  .recentContacts li:last-child {
+    border-bottom: none; /* Remove border from the last item */
+  }
+  

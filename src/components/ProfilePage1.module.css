@@ -1,0 +1,138 @@
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #f4f7fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profileHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #d1dce5;
+  margin-bottom: 20px;
+}
+
+.avatar img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #3182ce;
+}
+
+.userInfo h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #2d3748;
+}
+
+.userInfo p {
+  font-size: 1rem;
+  color: #4a5568;
+}
+
+.editProfile .editButton {
+  padding: 10px 20px;
+  background-color: #3182ce;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.editProfile .editButton:hover {
+  background-color: #2b6cb0;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 20px;
+}
+
+.accountInfo, .transactions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.infoBox {
+  flex: 1;
+  min-width: 250px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.infoBox h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #2c5282;
+  margin-bottom: 10px;
+}
+
+.infoBox p {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #2d3748;
+}
+
+.transactionItem {
+  flex: 1;
+  min-width: 300px;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+}
+
+.transactionItem p {
+  font-size: 1rem;
+  color: #4a5568;
+  margin-bottom: 5px;
+}
+
+.securitySettings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.securitySettings p {
+  font-size: 1rem;
+  color: #4a5568;
+}
+
+.changePasswordButton {
+  padding: 10px 20px;
+  background-color: #e53e3e;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.changePasswordButton:hover {
+  background-color: #c53030;
+}

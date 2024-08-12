@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;400&family=Oswald:wght@500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  font-family: "Mukta", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* ::-webkit-scrollbar {
+  @apply w-3;
+}
+
+::-webkit-scrollbar-track {
+  @apply shadow rounded-lg bg-slate-600;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-900 rounded-lg hover:bg-slate-800 transition-all duration-200;
+} */
+
+img {
+  max-width: 100%;
+}
+
+p {
+  line-height: 1.8;
+}
+
+.btn-blue {
+  background-color: #0171ba;
+  @apply py-3 px-8 rounded-full shadow text-white w-full hover:bg-blue-700 transition-all duration-200 sm:w-auto sm:px-20 lg:px-40;
+}
+
+.navbar {
+  position: fixed;
+  left: -100vw;
+  @apply transition-all duration-200 text-white w-full top-0 p-8;
+}
+
+.navbar.open {
+  left: 0;
+  /* I've removed the background opacity on the navbar */
+  background: radial-gradient(#018dd1, #003d90);
+  @apply top-0 left-0 right-0 bottom-0 z-50;
+}
+
+.navbar ul li a {
+  @apply text-sm;
+}
+
+h1.heading {
+  font-family: "Oswald", sans-serif;
+  font-style: italic;
+  color: #fff;
+  @apply text-4xl lg:text-5xl;
+}
+
+.hero {
+  height: 500px;
+  background: url("./images/homepage/hero-banner.jpg") no-repeat right/cover;
+}
+
+/* .hero div {
+  height: 600px;
+} */
+
+.radial-gradient {
+  background: radial-gradient(#018dd1, #003d90);
+}
+
+.personal-showcase {
+  height: 700px;
+  background: url("./images/personal/Personal_Hero.jpg") no-repeat right/cover;
+}
+
+.personal-showcase .overlay {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.active {
+  @apply text-blue-600 font-bold border-blue-600;
+}
+
+.payonline-hero {
+  height: 600px;
+  background: url("./images/payonline/buy_onwebsites_hero_bg_1x.jpg") no-repeat
+    center/cover;
+}
+
+.payonline-hero .overlay {
+  height: 600px;
+}
+
+.imagegrid-hero {
+  height: 500px;
+  background: url("./images/payonline/buy_onwebsites_n1_1x.jpg") no-repeat
+    center/cover;
+}
+
+.imagegrid-hero .overlay {
+  height: 500px;
+}
+
+.imagegrid-hero-two {
+  background: url("./images/payonline/buy_onwebsites_n4_1x.jpg") no-repeat
+    center/cover;
+}
+
+.sendpayments-hero {
+  background: url("./images/sendpayments/send_hero_bg_1x.jpg") no-repeat
+    center/cover;
+}
+
+.sendgrid-hero {
+  background: url("./images/sendpayments/send_n1_1x.jpg") no-repeat center/cover;
+}
+
+.mobile-apps {
+  background: linear-gradient(90deg, #018cd2, #014798);
+}
+
+.merchant-hero {
+  background: url("./images/merchant/merchant_herobanner.jpg") no-repeat
+    center/cover;
+}
+
+.merchant-hero .overlay {
+  height: 600px;
+}
+
+.merchant-hero-two {
+  background: url("./images/merchant/merchant-freelancers.jpg") no-repeat
+    center/cover;
+}
+
+.onlinepayments-hero {
+  background: url("./images/onlinepayments/hero.jpg") no-repeat center/cover;
+}
+
+.zebra ul li:nth-child(odd) {
+  @apply bg-slate-100;
+}
+
+.convert-hero {
+  background: url("./images/invoices/shutterstock-editorial.jpg") no-repeat
+    center/cover;
+}
+
+.freelancers-hero {
+  background: url("./images/freelancers/hero-banner-freelancers-ke.jpg")
+    no-repeat center/cover;
+}
+
+.partners-hero {
+  background: url("./images/partners/Partner-Developers-Page_Website-hero.jpg")
+    no-repeat center/cover;
+}
+
+/* Enable this part to have the desktop navigation, and try to fix it */
+/* @media (min-width: 1024px) {
+  .navbar {
+    position: relative;
+    left: 0;
+    @apply transition-all duration-200 text-white w-auto top-0 lg:p-0;
+  }
+
+  .navbar.open {
+    left: 0;
+    background: none;
+    @apply top-0 left-0 right-0 bottom-0 z-auto;
+  }
+
+  .links {
+    display: none;
+  }
+} */
+
+@media (min-width: 1440px) {
+  .hero {
+    background: url("./images/homepage/hero-banner.jpg") no-repeat center/cover;
+  }
+}

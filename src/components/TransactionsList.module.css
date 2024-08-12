@@ -1,0 +1,53 @@
+.dashboard {
+  padding: 20px;
+  background-color: #f4f4f9;
+  font-family: Arial, sans-serif;
+}
+
+.transactions {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.transactionList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.transactionItem {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px 0;
+}
+
+.transactionItem:last-child {
+  border-bottom: none;
+}
+
+.transactionId {
+  color: #333;
+  font-weight: bold;
+}
+
+.transactionDate {
+  color: #777;
+}
+
+.transactionDescription {
+  color: #555;
+}
+
+.transactionAmount {
+  font-weight: bold;
+}
+
+.transactionCompleted {
+  color: #28a745; /* Green for completed */
+}
+
+.transactionPending {
+  color: #dc3545; /* Red for pending */
+}

@@ -1,0 +1,98 @@
+/* Footer.module.css */
+.footer {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f8f9fa;
+    border-top: 1px solid #e0e0e0;
+  }
+  
+  .footerLink {
+    color: #16191c;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s, text-decoration 0.3s;
+  }
+  
+  .footerLink:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  
+  .footerList {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footerListItem {
+    font-size: 14px;
+    color: #343a40;
+  }
+  
+  .footerListRow {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    @media (min-width: 768px) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  
+  .footerSection {
+    margin-bottom: 20px;
+  }
+  
+  .footerDisclaimer {
+    color: #6c757d;
+    font-size: 12px;
+    margin-top: 24px;
+  }
+  
+  .notificationButton {
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    z-index: 50;
+  }
+  
+  .notificationLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+  }
+  
+  .notificationLink:hover {
+    background-color: #0056b3;
+  }
+  
+  .notificationIcon {
+    font-size: 24px;
+  }
+  
+  .notificationBadge {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    background-color: #dc3545;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    border-radius: 50%;
+  }
+  

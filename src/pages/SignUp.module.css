@@ -1,0 +1,92 @@
+/* SignUp.module.css */
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin-top: 60px;
+    margin-left: 150px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  
+  .imageSection {
+    display: none;
+    border-right: 1px solid #e0e0e0;
+    padding-right: 32px;
+  }
+  
+  .imageSection img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .headingPrimary {
+    font-size: 2rem;
+    margin-top: 16px;
+    font-weight: 300;
+    color: #333;
+  }
+  
+  .headingSecondary {
+    font-size: 1.5rem;
+    color: #666;
+  }
+  
+  .headingTertiary {
+    font-size: 1.25rem;
+    margin-bottom: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .listItem {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .listItemLink {
+    font-weight: bold;
+    color: #333;
+    font-size: 1.25rem;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .listItemLink:hover {
+    color: #007bff;
+  }
+  
+  .listItemDescription {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  @media (min-width: 1024px) {
+    .container {
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .imageSection {
+      display: block;
+    }
+  
+    .headingPrimary {
+      font-size: 2.5rem;
+    }
+  
+    .headingSecondary {
+      font-size: 1.75rem;
+    }
+  
+    .headingTertiary {
+      font-size: 1.5rem;
+    }
+  }
+  

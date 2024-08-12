@@ -1,0 +1,91 @@
+/* Login.module.css */
+.container {
+    padding: 20px;
+    max-width: 400px;
+    margin-top: 60px;
+    margin-left: 520px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+  }
+  
+  .form {
+    margin-top: 20px;
+  }
+  
+  .input {
+    border: 2px solid #c4c4c4;
+    padding: 12px;
+    placeholder: #6c757d;
+    color: #495057;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+  }
+  
+  .forgotLink {
+    color: #007bff;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin: 20px 0;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  
+  .forgotLink:hover {
+    text-decoration: underline;
+  }
+  
+  .submitButton {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submitButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .orText {
+    margin: 20px 0;
+    text-align: center;
+    color: #6c757d;
+  }
+  
+  .signUpLink {
+    border: 2px solid #007bff;
+    color: #007bff;
+    padding: 12px;
+    border-radius: 24px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    transition: opacity 0.3s;
+  }
+  
+  .signUpLink:hover {
+    opacity: 0.75;
+  }
+  

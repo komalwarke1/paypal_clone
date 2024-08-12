@@ -1,0 +1,53 @@
+.activityCard {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .activityCard:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    color: #2d3748;
+    font-weight: 600;
+  }
+  
+  p {
+    margin: 8px 0;
+    font-size: 1rem;
+    color: #4a5568;
+  }
+  
+  p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .activityCard p:nth-child(3) {
+    font-weight: bold;
+    color: #2b6cb0;
+  }
+  
+  .activityCard p:nth-child(4) {
+    color: #48bb78;
+    font-weight: 600;
+  }
+  
+  .activityCard p:nth-child(4).status-completed {
+    color: #48bb78; /* Green for completed */
+  }
+  
+  .activityCard p:nth-child(4).status-pending {
+    color: #dd6b20; /* Orange for pending */
+  }
+  
+  .activityCard p:nth-child(4).status-failed {
+    color: #e53e3e; /* Red for failed */
+  }
+  
